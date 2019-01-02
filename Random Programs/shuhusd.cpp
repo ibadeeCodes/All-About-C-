@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+ char ch;
+ int vowels=0,consonants=0;
+ while((ch=getche())!='\r')
+ {
+ 	if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u')
+ 	vowels++;
+ 	else
+ 	consonants++;
+	  } 	
+	  printf("the total vowels are %d",vowels);
+	  printf("the total consonats are %d",consonants)
+;}
+	
+	
+	
+
